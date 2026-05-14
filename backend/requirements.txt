@@ -1,0 +1,42 @@
+# ── Core FastAPI ──────────────────────────────────────────────────────────────
+fastapi>=0.109.0
+uvicorn[standard]==0.24.0
+gunicorn==21.2.0
+python-multipart==0.0.6
+
+# ── Database ──────────────────────────────────────────────────────────────────
+# Phase 1 addition: SQLAlchemy ORM + async database drivers
+sqlalchemy==2.0.23
+asyncpg==0.29.0
+psycopg2-binary==2.9.9
+aiosqlite==0.20.0
+alembic==1.13.0
+
+# ── Authentication ────────────────────────────────────────────────────────────
+# Phase 1 addition: JWT signing + password hashing
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.8.0
+
+# ── Data & ML ─────────────────────────────────────────────────────────────────
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.4.2
+nltk==3.8.1
+# Phase 1 addition: required to load pretrained .pkl model files
+joblib==1.3.2
+
+# ── Configuration ─────────────────────────────────────────────────────────────
+# Phase 1 addition: type-safe .env loading
+python-dotenv==1.0.0
+pydantic-settings==2.1.0
+email-validator>=2.0.0
+
+# ── Dev / Testing ─────────────────────────────────────────────────────────────
+httpx==0.26.0
+
+# Phase 2 semantic stack (SentenceTransformers + UMAP + HDBSCAN + VADER)
+sentence-transformers>=2.2.0
+umap-learn>=0.5.5
+hdbscan>=0.8.33
+vaderSentiment==3.3.2
+torch>=2.0.0

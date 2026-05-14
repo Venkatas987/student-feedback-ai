@@ -1,0 +1,24 @@
+{
+  "name": "student-feedback-ai",
+  "version": "1.0.0",
+  "description": "AI-powered platform for institutional feedback analytics",
+  "scripts": {
+    "dev:backend": "python run.py",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "install:all": "npm install && cd frontend && npm install",
+    "start": "python run.py"
+  },
+  "dependencies": {
+    "axios": "^1.16.0",
+    "recharts": "^3.8.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.5.0",
+    "concurrently": "^9.2.1",
+    "postcss": "^8.5.14",
+    "tailwindcss": "^4.3.0",
+    "wait-on": "^9.0.10"
+  }
+}
+
