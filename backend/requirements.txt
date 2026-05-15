@@ -15,7 +15,7 @@ alembic==1.13.0
 # ── Authentication ────────────────────────────────────────────────────────────
 # Phase 1 addition: JWT signing + password hashing
 python-jose[cryptography]==3.3.0
-passlib[bcrypt]==1.8.0
+passlib[bcrypt]==1.7.4
 
 # ── Data & ML ─────────────────────────────────────────────────────────────────
 pandas==2.2.2

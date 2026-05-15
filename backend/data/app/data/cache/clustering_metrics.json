@@ -1,0 +1,1 @@
+{"silhouette_score": 0.4529, "silhouette_label": "Good", "davies_bouldin_index": 0.7642, "dbi_label": "Good", "noise_ratio": 64.16, "cluster_count": 2, "mean_confidence": 98.98, "min_confidence": 92.33, "max_confidence": 100.0, "confidence_std": 1.86, "largest_cluster": 187, "smallest_cluster": 80, "mean_cluster_size": 133.5, "total_evaluated_points": 745, "core_points": 267}
